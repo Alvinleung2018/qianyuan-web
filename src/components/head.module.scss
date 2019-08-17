@@ -1,0 +1,25 @@
+@import './base.module.scss';
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+}
+
+.respond_btn {
+  background: $mainColor;
+}
+
+.respond_btn:hover {
+    background-color: $hoverColor; 
+}
+
+.item:hover {
+  background: $mainColor;
+}
+
