@@ -8,7 +8,7 @@ import { Link as RouterLink } from "react-router-dom";
 // import Product from '../pages/product'
 
 
-class Head extends Component {
+class Header extends Component {
 
 
   render () {
@@ -62,4 +62,4 @@ class Head extends Component {
   }
 }
 
-export default Head;
+export default Header;
