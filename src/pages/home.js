@@ -4,6 +4,7 @@ import {Carousel, Container, Col, Row} from 'react-bootstrap'
 import bannerOne from '../images/banner01.jpg'
 import bannerTwo from '../images/banner02.jpg'
 import bannerThree from '../images/banner02.jpg'
+import Banner from './banner'
 import style from './home.module.scss'
 // import Foot from '../components/foot'
 // import { BrowserRouter as Router } from "react-router-dom";
@@ -15,7 +16,7 @@ class Home extends Component {
     return (
       <Fragment>
         <div className="container">
-          <Carousel style={{"minHeight": "280px"}}>
+          {/* <Carousel style={{"minHeight": "280px"}}>
             <Item>
               <img className="d-block w-100" src={bannerOne} alt=""/>
             </Item>
@@ -25,7 +26,8 @@ class Home extends Component {
             <Item>
               <img className="d-block w-100" src={bannerThree} alt=""/>
             </Item>
-          </Carousel>
+          </Carousel> */}
+          <Banner />
         </div>
         <div className={style.sell_off}>
            <Container>
