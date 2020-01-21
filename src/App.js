@@ -14,6 +14,7 @@ class App extends Component {
     console.log(Router)
     return (  
         <Router>
+
           {/* <NavLink to="/ab" exact activeStyle={{
             fontWeight: "bold",
             color: "red"
