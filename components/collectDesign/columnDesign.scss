@@ -1,0 +1,41 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.bar{
+}
+
+.btn{
+  margin: .1rem 1rem .1rem 0;
+}
+
+.options{
+  display: flex;
+  align-items: stretch;
+  height: 92%;
+}
+
+.left{
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 60%;
+}
+
+.right{
+  width: 40%
+}
+
+.sql{
+  height: 30%;
+}
+
+.column{
+  height: 70%;
+}
